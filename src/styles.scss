@@ -20,7 +20,8 @@ body {
   font-family: "JetBrains Mono", sans-serif;
   background: var(--dark-color);
   color: var(--light-color);
-  background-image: url(/assets/imgs/background.jpg);
+  min-height: 100dvh;
+  background: center / cover no-repeat url(/assets/imgs/background.jpg) ;
 }
 
 .skill-tag {
