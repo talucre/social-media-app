@@ -4,11 +4,18 @@
   grid-template-columns: 322px 1fr;
 }
 
-.profile-form {
-  padding: 32px;
+.profile-form__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   border: 1px solid var(--light-color);
   border-radius: 2px;
   background: var(--dark-color);
+  padding: 32px;
+  height: calc(100dvh - (24px * 2));
+}
+
+.profile-form {
   display: grid;
   gap: 20px;
 }
